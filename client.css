@@ -1,0 +1,182 @@
+
+ul {
+  list-style-type: none;
+}
+
+body{
+    background-color: rgb(84, 84, 187);
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+#HomePanle{
+  display: block;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  
+
+}
+#AccountTab {
+  display: none;
+}
+
+#BrowseTab{
+  display: none;
+}
+
+#errorNewPSW{
+  display: none;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  margin: 5px;
+  color:red;
+}
+#profileResult {
+  display: none;
+  background-color: white;
+  text-align: center;
+  color: red;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+
+nav {
+  text-align: center;
+  margin: 15px;
+}
+
+#serachBox {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+.navText {
+  display: inline;
+  margin: 0;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  size: 20px;
+  border-radius: 5px;
+}
+
+
+.messageItem {
+   display: flex;
+   flex-direction: column;
+   margin: 20px;
+}
+
+#postMessage{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  
+}
+#postedMessages {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+
+#chnagePassword{
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#serachForm{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+
+
+#page {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 340px 250px;
+    grid-template-rows: 100px 300px;
+    
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+#image-container{
+    grid-column: 1 / 2; 
+    grid-row: 1 / 3;
+}
+
+#image-container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+  }
+
+#login{
+    grid-column: 2 / 3; 
+    grid-row: 1 / 2;
+}
+
+#SignUp{
+    padding: 2px;
+    grid-column: 2 / 3; 
+    grid-row: 2/ 3;
+}
+
+#passwordError {
+  display: none;
+  color: red;
+}
+
+
+
+.borderstyle {
+    border: 5px solid black;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+
+
+
+.inputfields {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+  }
+
+  input {
+    width: 150px; 
+  }
+
+  #SignUp h3 {
+    text-align: center;
+  }
+
+  #SignUp button {
+    float: right;
+  }
+
+  #login button {
+    float: right;
+  }
